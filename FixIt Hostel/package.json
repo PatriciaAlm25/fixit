@@ -1,6 +1,6 @@
 {
   "name": "fixit-hostel",
-  "homepage": "https://github.com/PatriciaAlm25/fixithostel.git",
+  "homepage": "https://github.com/PatriciaAlm25/fixit.git",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -11,8 +11,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "cd frontend &&npm run build",
-    "deploy": "gh-pages -d frontend/dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.93.2",
